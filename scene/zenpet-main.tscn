@@ -3,18 +3,11 @@
 [ext_resource type="Texture2D" uid="uid://45nnwkmxkfyp" path="res://assets/living-room-interior-comfortable-sofa-chair-tv-and-house-plants-vector-flat-cartoon.png" id="1_geksk"]
 [ext_resource type="Texture2D" uid="uid://ddjc1to5xos87" path="res://assets/Artboard 1.png" id="2_5n4e6"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="CenterContainer"]
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 3
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -632.0
-offset_right = 536.0
-offset_bottom = 662.0
-grow_horizontal = 2
-scale = Vector2(1.95097, 1.98068)
+layout_mode = 2
 texture = ExtResource("1_geksk")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -23,13 +16,7 @@ scale = Vector2(0.724929, 0.724929)
 texture = ExtResource("2_5n4e6")
 
 [node name="GUI" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(1.98068, 1.98068)
+layout_mode = 2
 
 [node name="Button" type="Button" parent="GUI"]
 layout_mode = 1
@@ -64,15 +51,7 @@ offset_bottom = 111.0
 text = "Furnitures"
 
 [node name="pet-GUI" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = 364.0
-offset_bottom = 645.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(1.98068, 1.98068)
+layout_mode = 2
 
 [node name="BoxContainer" type="BoxContainer" parent="pet-GUI"]
 layout_mode = 1

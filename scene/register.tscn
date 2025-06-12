@@ -40,14 +40,14 @@ theme_override_font_sizes/font_size = 31
 text = "your virtual companion"
 horizontal_alignment = 1
 
-[node name="LineEdit" type="LineEdit" parent="BoxContainer"]
+[node name="username-input" type="LineEdit" parent="BoxContainer"]
 layout_mode = 2
 theme_override_colors/font_placeholder_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 36
 placeholder_text = "Username..."
 
-[node name="LineEdit3" type="LineEdit" parent="BoxContainer"]
+[node name="email-input" type="LineEdit" parent="BoxContainer"]
 layout_mode = 2
 theme_override_colors/font_placeholder_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -58,7 +58,7 @@ placeholder_text = "Email..."
 layout_mode = 2
 alignment = 1
 
-[node name="OptionButton" type="OptionButton" parent="BoxContainer/HBoxContainer"]
+[node name="month-input" type="OptionButton" parent="BoxContainer/HBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 36
@@ -89,7 +89,7 @@ popup/item_10/id = 10
 popup/item_11/text = "December"
 popup/item_11/id = 11
 
-[node name="LineEdit" type="LineEdit" parent="BoxContainer/HBoxContainer"]
+[node name="day-input" type="LineEdit" parent="BoxContainer/HBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_placeholder_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -97,7 +97,7 @@ theme_override_font_sizes/font_size = 36
 placeholder_text = "DD"
 alignment = 1
 
-[node name="LineEdit2" type="LineEdit" parent="BoxContainer/HBoxContainer"]
+[node name="year-input" type="LineEdit" parent="BoxContainer/HBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_placeholder_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
@@ -105,14 +105,14 @@ theme_override_font_sizes/font_size = 36
 placeholder_text = "YYYY"
 alignment = 1
 
-[node name="LineEdit2" type="LineEdit" parent="BoxContainer"]
+[node name="password-input" type="LineEdit" parent="BoxContainer"]
 layout_mode = 2
 theme_override_colors/font_placeholder_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 36
 placeholder_text = "Password..."
 
-[node name="LineEdit4" type="LineEdit" parent="BoxContainer"]
+[node name="confirmpass-input" type="LineEdit" parent="BoxContainer"]
 layout_mode = 2
 theme_override_colors/font_placeholder_color = Color(0, 0, 0, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
