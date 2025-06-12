@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://jov1u0qi2gu1"]
+
+[ext_resource type="Texture2D" uid="uid://beh4s5vrq8lvq" path="res://assets/bedroom-bed-hotel-room-cartoon-powerpoint-background_10a6a99db4__960_540.png" id="1_7nyxg"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -390.0
+offset_right = 2222.0
+offset_bottom = 1481.0
+grow_horizontal = 2
+scale = Vector2(0.985, 1)
+texture = ExtResource("1_7nyxg")

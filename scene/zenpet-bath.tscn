@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfo4ctavvj213"]
+
+[ext_resource type="Texture2D" uid="uid://gqj6cia2i5xw" path="res://assets/modern-bathroom-interior-with-furniture-flat-style-design-modern-bathroom-toothpaste-toothbrush-razor-lotion_1284-42565.png" id="1_w7ctj"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -566.0
+offset_right = 1710.0
+offset_bottom = 1290.0
+grow_horizontal = 2
+scale = Vector2(0.985, 1)
+texture = ExtResource("1_w7ctj")

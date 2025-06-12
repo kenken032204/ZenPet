@@ -1,0 +1,99 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqpo5nf8lm652"]
+
+[ext_resource type="Texture2D" uid="uid://45nnwkmxkfyp" path="res://assets/living-room-interior-comfortable-sofa-chair-tv-and-house-plants-vector-flat-cartoon.png" id="1_geksk"]
+[ext_resource type="Texture2D" uid="uid://ddjc1to5xos87" path="res://assets/Artboard 1.png" id="2_5n4e6"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -632.0
+offset_right = 536.0
+offset_bottom = 662.0
+grow_horizontal = 2
+scale = Vector2(1.95097, 1.98068)
+texture = ExtResource("1_geksk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(359, 850)
+scale = Vector2(0.724929, 0.724929)
+texture = ExtResource("2_5n4e6")
+
+[node name="GUI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.98068, 1.98068)
+
+[node name="Button" type="Button" parent="GUI"]
+layout_mode = 1
+offset_left = 281.0
+offset_top = 17.0
+offset_right = 351.0
+offset_bottom = 48.0
+text = "Settings"
+
+[node name="Button2" type="Button" parent="GUI"]
+layout_mode = 1
+offset_left = 281.0
+offset_top = 65.0
+offset_right = 351.0
+offset_bottom = 96.0
+text = "Back"
+
+[node name="Button3" type="Button" parent="GUI"]
+layout_mode = 1
+offset_left = 11.0
+offset_top = 31.0
+offset_right = 97.0
+offset_bottom = 62.0
+text = "Wardrobe"
+
+[node name="Button4" type="Button" parent="GUI"]
+layout_mode = 1
+offset_left = 11.0
+offset_top = 80.0
+offset_right = 100.0
+offset_bottom = 111.0
+text = "Furnitures"
+
+[node name="pet-GUI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 364.0
+offset_bottom = 645.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.98068, 1.98068)
+
+[node name="BoxContainer" type="BoxContainer" parent="pet-GUI"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 245.5
+offset_bottom = 289.5
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Button" type="Button" parent="pet-GUI/BoxContainer"]
+layout_mode = 2
+text = "SLEEP"
+
+[node name="Button2" type="Button" parent="pet-GUI/BoxContainer"]
+layout_mode = 2
+text = "CHAT"
+
+[node name="Button3" type="Button" parent="pet-GUI/BoxContainer"]
+layout_mode = 2
+text = "BATH"
